@@ -1,3 +1,33 @@
 .nav-container {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #151415;
+    color: #FADF63;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+.nav-container img {
+    width: 120px;
+    border-radius: 50%;
+    padding: 1%;
+    cursor: pointer;
+}
+.nav-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+    transition: color ease-out 0.2s;
+    cursor: pointer;
+    font-size: 2rem;
+}
+li:hover {
+    color: #F6F8FF;
 }
