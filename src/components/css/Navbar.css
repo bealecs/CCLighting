@@ -21,13 +21,16 @@
     width: 100%;
     align-items: center;
 }
-li {
+.nav-container ul li {
     text-decoration: none;
     list-style: none;
     transition: color ease-out 0.2s;
     cursor: pointer;
     font-size: 2rem;
+    padding: 2%;
+    border-radius: 10%;
 }
 li:hover {
-    color: #F6F8FF;
+    color: #151415;
+    background-color: #FADF63;
 }
