@@ -1,0 +1,14 @@
+.first-container {
+    background-color: #151415;
+    color: #fadf63;
+    text-align: center;
+    padding-top: 2%;
+    height: fit-content;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    height: fit-content;
+    padding-bottom: 1%;
+}
