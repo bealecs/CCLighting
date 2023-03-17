@@ -11,40 +11,40 @@ export const HeroSection = () => {
     return(
         <>
             <div className="container">
-                <div style={{paddingTop:"9%",color:"white"}}>
+                <div>
                     <video src={video} autoPlay loop muted></video>
-                    <h2> I would like to replace the above video with the drone footage on your FB <br /> </h2>
-                    <div style={{borderBottom:"20px solid #FADF63",paddingTop:"2%",width:"70%",margin:"auto",borderRadius:"50%"}}></div>
+                    <h2 style={{color:"#CCDBDC"}}> I would like to replace the above video with the drone footage on your FB <br /> </h2>
                 </div>
                 <div className="Card-Holder">
                <div className="landing-cards">
                     <div className="cards1">
                         <h2>Locally Owned and Operated</h2>
                         <div style={{borderBottom:"2px solid #FADF63", width:"40%", margin:"auto",paddingTop:"1%"}}></div>
-                        <img src={pic1} alt="Noah and Tyler installing light fixtures" style={{width:"60%",alignItems:"center",paddingTop:"2%"}}/>
-                    </div>
-                    <div className="cards2">
-                        <p></p>
+                        <img src={pic1} alt="Noah and Tyler installing light fixtures" style={{width:"66%",alignItems:"center",paddingTop:"2%"}}/>
+                        <p>Cross & Carlile Lighting is born and bred in the 757 and we are proud to serve our neighborhoods with shining smiles.
+                        <br /><br /><a href="#" style={{color:"#FADF63"}}>Contact Us</a>
+                        </p>
                     </div>
                </div>
                <div className="landing-cards">
                     <div className="cards1">
                         <h2>Licensed and Insured</h2>
                         <div style={{borderBottom:"2px solid #FADF63", width:"40%", margin:"auto",paddingTop:"1%"}}></div>
-                        <img src={pic2} alt="Noah and Tyler installing light fixtures" style={{width:"60%",alignItems:"center",paddingTop:"2%"}}/>
-                    </div>
-                    <div className="cards2">
-                        <p></p>
+                        <img src={pic2} alt="Noah and Tyler installing light fixtures" style={{width:"66%",alignItems:"center",paddingTop:"2%"}}/>
+                        <p>All employees of Cross & Carlile are properly licensed and ensured for each and every job. We make sure to bring the best to your home, and wouldn't have it any
+                            other way. <br /><br /><a href="#" style={{color:"#FADF63"}}>*Click here for certs of noah and ty*</a>
+                        </p>
                     </div>
                </div>
                <div className="landing-cards">
                     <div className="cards1">
                         <h2>Custom Solutions Designed for You</h2>
                         <div style={{borderBottom:"2px solid #FADF63", width:"40%", margin:"auto",paddingTop:"1%"}}></div>
-                        <img src={pic3} alt="Noah and Tyler installing light fixtures" style={{width:"60%",height:"",alignItems:"center",paddingTop:"2%"}}/>
-                    </div>
-                    <div className="cards2">
-                        <p></p>
+                        <img src={pic3} alt="Noah and Tyler installing light fixtures" style={{width:"66%",height:"",alignItems:"center",paddingTop:"2%"}}/>
+                        <p>Whether it be a lit up patio, porch, 
+                            driveway, or even your favorite tree that was planted decades ago.. We have your back. We'll work with you to decide how we can make your home the brightest on the block!
+                            <br /><br /><a href="#" style={{color:"#FADF63"}}>Check out our products</a>
+                        </p>
                     </div>
                </div>
                </div>

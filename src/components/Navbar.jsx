@@ -14,6 +14,7 @@ export const Navbar = (props) => {
                     <li>Gallery</li>
                     <li>About Us</li>
                     <li>Products & Warranties</li>
+                    <li>Reviews</li>
                     <li style={{fontSize:"3rem"}}>💡</li> 
                     {/*🌙 This will be for the darkmode*/}
                 </ul>
