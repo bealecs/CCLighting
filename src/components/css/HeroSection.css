@@ -32,24 +32,35 @@ video {
 .cards1 h2 {
     font-size: 2rem;
 }
+.landing-cards {
+    width: 30%;
+}
 .cards1 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    padding-bottom: 3%;
     width: 100%;
+    background-color: #FADF63;
 }
 .cards1 img {
     display: block;
     margin: auto;
+    width: 100%;
 }
 .cards1 p {
-    width: 65%;
     margin: auto;
-    padding-top: 3%;
     font-size: 1.5rem;
-    color: #CCDBDC;
+    color: #151415;
     line-height: 1.2;
+    background-color: #F3A738;
+    padding: 3%;
+}
+.cards1 a:hover {
+    color: #151415;
+}
+.cards1 a {
+    color: white;
+    padding: 1%;
 }
 @media only screen and (max-width: 1500px) {
     .Card-Holder {
