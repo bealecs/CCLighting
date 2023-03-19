@@ -1,6 +1,7 @@
 import './App.css';
 import { Footer } from './components/Footer';
 import { HeroSection } from './components/HeroSection';
+import { IconSection } from './components/IconSection';
 import { Navbar } from './components/Navbar';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
+      <IconSection />
       <Footer />
     </>
   );

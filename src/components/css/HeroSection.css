@@ -5,11 +5,10 @@
 .container {
     min-height: 100vh;
     height: fit-content;
-    background-color: #151415;
+    background-color: #040e1b;
 }
 .landing-cards {
     padding-top: 7%;
-    color: #FADF63;
     width: 33%;
 }
 h2 {
@@ -40,17 +39,18 @@ video {
     flex-direction: column;
     margin: auto;
     width: 100%;
-    background-color: #FADF63;
+    background-color: #F3A738;
 }
 .cards1 img {
     display: block;
     margin: auto;
     width: 100%;
 }
+
 .cards1 p {
     margin: auto;
     font-size: 1.5rem;
-    color: #151415;
+    color: rgb(4,14,27);
     line-height: 1.2;
     background-color: #F3A738;
     padding: 3%;
