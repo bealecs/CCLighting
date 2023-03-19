@@ -2,11 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Gallery } from './components/Gallery';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+  <Routes>
+    <Route path="/" element={<App />} />
+    <Route path='/gallery' element={<Gallery />} />
+  </Routes>
+  </BrowserRouter>
   </React.StrictMode>
 );
 

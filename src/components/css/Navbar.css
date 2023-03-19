@@ -31,6 +31,20 @@
     padding: 2%;
     border-radius: 10%;
 }
+.link {
+    text-decoration: none;
+    list-style: none;
+    transition: color ease-out 0.2s;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 2%;
+    border-radius: 10%;
+    color: #FADF63;
+}
+.link:hover {
+    color: #151415;
+    background-color: #FADF63;
+}
 li:hover {
     color: #151415;
     background-color: #FADF63;

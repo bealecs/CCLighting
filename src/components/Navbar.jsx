@@ -1,5 +1,6 @@
 import React from "react";
 import './css/Navbar.css';
+import { Link } from 'react-router-dom';
 
 export const Navbar = (props) => {
 
@@ -11,7 +12,7 @@ export const Navbar = (props) => {
                 <img src={logo} alt="Cross & Carlile Logo"/>
                 <ul>
                     <li>Contact</li>
-                    <li>Gallery</li>
+                    <li><Link to="/Gallery" className="link">Gallery</Link></li>
                     <li>About Us</li>
                     <li>Products & Warranties</li>
                     <li>Reviews</li>
