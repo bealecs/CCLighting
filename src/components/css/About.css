@@ -18,3 +18,14 @@
 .about-container p {
     line-height: 2.5rem;
 }
+
+.about-container img {
+    width: 300px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+.profile-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
