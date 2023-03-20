@@ -19,7 +19,7 @@ export const Products = () => {
                     <p>A description of the light and any warranties that it may have. Maybe boast a little bit about why you went with this brand or something<br /><br />
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin felis ut massa egestas, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin felis ut massa egestas
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin felis ut massa egestas</p>
-                    <a href="https://google.com">View the Product directly here</a>  
+                    <a href="https://google.com" target="_blank" rel="noopener noreferrer">View the Product directly here</a>  
                 </div>
                 <div className="light-example">
                     <img src={light2} alt="One of the light fixtures that is used by Cross and Carlile" />
@@ -27,7 +27,7 @@ export const Products = () => {
                     <p>A description of the light and any warranties that it may have. Maybe boast a little bit about why you went with this brand or something<br /><br />
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin felis ut massa egestas, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin felis ut massa egestas
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin felis ut massa egestas</p>
-                    <a href="https://google.com">View the Product directly here</a>                  
+                    <a href="https://google.com" target="_blank" rel="noopener noreferrer">View the Product directly here</a>                  
                 </div>
                 <div className="light-example">
                     <img src={light3} alt="One of the light fixtures that is used by Cross and Carlile" />
@@ -35,7 +35,7 @@ export const Products = () => {
                     <p>A description of the light and any warranties that it may have. Maybe boast a little bit about why you went with this brand or something<br /><br />
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin felis ut massa egestas, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin felis ut massa egestas
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin felis ut massa egestas</p>
-                    <a href="https://google.com">View the Product directly here</a>                
+                    <a href="https://google.com" target="_blank" rel="noopener noreferrer">View the Product directly here</a>                
                 </div>
             </div>
             <Footer />

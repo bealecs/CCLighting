@@ -47,3 +47,19 @@ li:hover {
 a.home-link:hover {
     background-color: rgb(4,14,27);
 }
+@media only screen and (max-width: 1500px) {
+    .nav-container a {
+        font-size: 1.5rem;
+    }
+    .nav-container img {
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .nav-container a {
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 750px) {
+
+}

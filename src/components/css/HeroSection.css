@@ -62,12 +62,21 @@ video {
     color: white;
     padding: 1%;
 }
+
 @media only screen and (max-width: 1500px) {
+    video {
+        padding-top: 15%;
+    }
+}
+@media only screen and (max-width: 750px) {
     .Card-Holder {
         display: block;
         width: 100%;
     }
     .landing-cards {
         width: 100%;
+    }
+    video {
+        padding-top: 30%;
     }
 }

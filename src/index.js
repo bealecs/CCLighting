@@ -7,6 +7,7 @@ import { Gallery } from './components/Gallery';
 import { Contact } from './components/Contact';
 import { About } from './components/About';
 import { Products } from './components/Products';
+import { Reviews } from './components/Reviews';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     <Route path='/contact' element={<Contact />} />
     <Route path='/about' element={<About />} />
     <Route path='/products' element={<Products />} />
+    <Route path='/reviews' element={<Reviews />} />
   </Routes>
   </BrowserRouter>
   </React.StrictMode>

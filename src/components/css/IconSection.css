@@ -5,3 +5,17 @@ p > a {
 p > a:hover {
     color: #FADF63;
 }
+.icon-container h2 {
+    font-size: 2.5rem;
+}
+.icons img {
+    width: 10%;
+}
+@media only screen and (max-width: 750px) {
+    .icons img {
+        width: 25%;
+    }
+    .icon-container h2 {
+        font-size: 1.9rem;
+    }
+}

@@ -1,0 +1,33 @@
+.testimonial-card {
+    color: #fadf63;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 5%;
+    margin: auto;
+    width: 25%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.review-container {
+    color: #fadf63;
+    padding-top: 10%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+.testimonial-card h2 {
+    margin: auto;
+}
+.testimonial-card h4 {
+    margin: auto;
+}
+.testimonial-card p {
+    margin: auto;
+    padding: 5%;
+    font-size: 1.2rem;
+}
+.review-container a {
+    text-decoration: underline;
+    padding: 0;
+}
