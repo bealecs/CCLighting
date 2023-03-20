@@ -41,3 +41,24 @@
 .products-container a:hover {
     color: #FADF63;
 }
+@media only screen and (max-width: 1500px) {
+    .products-container {
+        padding-top: 20%;
+    }
+    .light-example {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .about-container {
+        padding-top: 25%;
+    }
+    .light-example {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .light-example {
+        padding-top: 10%;
+    }
+}

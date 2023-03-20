@@ -29,6 +29,16 @@
     font-size: 2rem;
     border-radius: 10%;
 }
+.full-size {
+    text-decoration: none;
+    list-style: none;
+    transition: color ease-out 0.2s;
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 10%;
+    width: 100%;
+    padding-top: 3%;
+}
 li:hover {
     background-color: #FADF63;
     color: #151415;
@@ -47,6 +57,9 @@ li:hover {
 a.home-link:hover {
     background-color: rgb(4,14,27);
 }
+div.hamburger-react {
+    display: none;
+}
 @media only screen and (max-width: 1500px) {
     .nav-container a {
         font-size: 1.5rem;
@@ -61,5 +74,40 @@ a.home-link:hover {
     }
 }
 @media only screen and (max-width: 750px) {
-
+    div.hamburger-react {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 70%;
+        margin-top: 7%;
+    }
+    .nav-container ul {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 1;
+        background-color: #313C2B;
+        width: fit-content;
+        text-align: center;
+        text-decoration: underline;
+        line-height: 3rem;
+    }
+    .full-size {
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+    div.hamburger-react {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 60%;
+        margin-top: 7%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    div.hamburger-react {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 30%;
+        margin-top: 7%;
+    }
 }

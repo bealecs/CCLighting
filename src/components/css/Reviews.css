@@ -31,3 +31,21 @@
     text-decoration: underline;
     padding: 0;
 }
+@media only screen and (max-width: 1500px) {
+    .review-container {
+        padding-top: 15%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .testimonial-card {
+        width: 90%;
+    }
+    .testimonial-card p {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .review-container {
+        padding-top: 25%;
+    }
+}

@@ -45,3 +45,23 @@
     background-color: rgb(243, 168, 55, 0.8);
     color: #FADF63;
 }
+@media only screen and (max-width: 1500px) {
+    .contact-container {
+        padding-top: 15%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .contact-container {
+        padding-top: 20%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .contact-container {
+        padding-top: 25%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .contact-container {
+        padding-top: 30%;
+    }
+}

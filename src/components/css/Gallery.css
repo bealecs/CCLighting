@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     width: 100%;
     margin: auto;
-    margin-top: 5%;
+    padding-top: 5%;
 }
 .gallery-container img {
     width: 17%;
@@ -20,4 +20,24 @@
 .gallery-container img:hover {
     box-shadow: #FADF63 4px 4px 12px 4px;
     width: 30%;
+}
+@media only screen and (max-width: 1500px) {
+    .gallery-container {
+        padding-top: 10%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .gallery-container {
+        padding-top: 15%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .gallery-container {
+        padding-top: 20%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .gallery-container {
+        padding-top: 25%;
+    }
 }
