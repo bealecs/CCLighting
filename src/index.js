@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Gallery } from './components/Gallery';
 import { Contact } from './components/Contact';
 import { About } from './components/About';
+import { Products } from './components/Products';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     <Route path='/gallery' element={<Gallery />} />
     <Route path='/contact' element={<Contact />} />
     <Route path='/about' element={<About />} />
+    <Route path='/products' element={<Products />} />
   </Routes>
   </BrowserRouter>
   </React.StrictMode>

@@ -14,7 +14,7 @@ export const Navbar = (props) => {
                     <a href="/contact">Contact</a>
                     <a href="/Gallery">Gallery</a>
                     <a href="/about">About Us</a>
-                    <a href="/Gallery">Products & Warranties</a>
+                    <a href="/products">Products & Warranties</a>
                     <a href="/Gallery">Reviews</a>
                     <a href="/Gallery" style={{fontSize:"3rem"}}>💡</a> 
                     {/*🌙 This will be for the darkmode*/}

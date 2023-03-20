@@ -1,7 +1,7 @@
 .about-container {
     min-height: 60vh;
     background-color: rgb(4, 14, 27);
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #FADF63;
     padding: 5%;
     padding-top: 10%;
@@ -12,7 +12,7 @@
 }
 .about-container h4 {
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
     
 }
 .about-container p {

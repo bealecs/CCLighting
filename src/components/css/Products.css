@@ -1,0 +1,32 @@
+.products-container {
+    background-color: rgb(4, 14, 27);
+    display: flex;
+    padding-top: 15%;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+.light-example {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: #fadf63;
+}
+.light-example:hover {
+    box-shadow: #FADF63 4px 4px 12px 4px;
+}
+.light-example img {
+    width: 33%;
+    margin: auto;
+}
+.products-container h3 {
+    text-align: center;
+    padding: 3%;
+    font-size: 1.5rem;
+}
+.light-example p {
+    width: 80%;
+    margin: auto;
+    line-height: 1.5rem;
+}
