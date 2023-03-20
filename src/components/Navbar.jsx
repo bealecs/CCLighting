@@ -9,14 +9,14 @@ export const Navbar = (props) => {
     return (
         <>
             <div className="nav-container">
-                <img src={logo} alt="Cross & Carlile Logo"/>
+                <Link to="/" className="home-link"><img src={logo} alt="Cross & Carlile Logo"/></Link>
                 <ul>
-                    <li>Contact</li>
-                    <li><Link to="/Gallery" className="link">Gallery</Link></li>
-                    <li>About Us</li>
-                    <li>Products & Warranties</li>
-                    <li>Reviews</li>
-                    <li style={{fontSize:"3rem"}}>💡</li> 
+                    <a href="/contact">Contact</a>
+                    <a href="/Gallery">Gallery</a>
+                    <a href="/Gallery">About Us</a>
+                    <a href="/Gallery">Products & Warranties</a>
+                    <a href="/Gallery">Reviews</a>
+                    <a href="/Gallery" style={{fontSize:"3rem"}}>💡</a> 
                     {/*🌙 This will be for the darkmode*/}
                 </ul>
             </div>

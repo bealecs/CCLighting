@@ -1,0 +1,23 @@
+.gallery-container {
+    background-color: rgb(4,14,27);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+}
+.gallery-container img {
+    width: 17%;
+    aspect-ratio: 1;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10%;
+    border: 1px solid white;
+    cursor: zoom-in;
+    transition: width ease-in 0.4s;
+}
+.gallery-container img:hover {
+    box-shadow: #FADF63 4px 4px 12px 4px;
+    width: 30%;
+}

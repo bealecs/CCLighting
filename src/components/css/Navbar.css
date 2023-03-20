@@ -12,7 +12,7 @@
 .nav-container img {
     width: 120px;
     border-radius: 50%;
-    padding: 1%;
+    padding: 10%;
     cursor: pointer;
 }
 .nav-container ul {
@@ -28,24 +28,23 @@
     transition: color ease-out 0.2s;
     cursor: pointer;
     font-size: 2rem;
-    padding: 2%;
     border-radius: 10%;
-}
-.link {
-    text-decoration: none;
-    list-style: none;
-    transition: color ease-out 0.2s;
-    cursor: pointer;
-    font-size: 2rem;
-    padding: 2%;
-    border-radius: 10%;
-    color: #FADF63;
-}
-.link:hover {
-    color: #151415;
-    background-color: #FADF63;
 }
 li:hover {
+    background-color: #FADF63;
+    color: #151415;
+}
+.nav-container a {
+    color: #FADF63;
+    text-decoration: none;
+    padding: 1%;
+    font-size: 2rem;
+}
+.nav-container a:hover {
     color: #151415;
     background-color: #FADF63;
+    border-radius: 10%;
+}
+a.home-link:hover {
+    background-color: rgb(4,14,27);
 }

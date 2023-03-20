@@ -1,0 +1,7 @@
+p > a {
+    color: white;
+    padding: 1%;
+}
+p > a:hover {
+    color: #FADF63;
+}

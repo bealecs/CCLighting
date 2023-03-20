@@ -4,6 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Gallery } from './components/Gallery';
+import { Contact } from './components/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
   <Routes>
     <Route path="/" element={<App />} />
     <Route path='/gallery' element={<Gallery />} />
+    <Route path='/contact' element={<Contact />} />
   </Routes>
   </BrowserRouter>
   </React.StrictMode>

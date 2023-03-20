@@ -1,4 +1,5 @@
 import React from "react";
+import './css/IconSection.css';
 
 export const IconSection = () => {
 
@@ -17,14 +18,14 @@ export const IconSection = () => {
                 <div>
                     <h2 style={{fontSize:"4rem", width:"70%",padding:"2%",textAlign:"center"}}>Beautiful Lighting</h2>
                     <p style={{fontSize:"2rem", width:"70%",margin:"auto",padding:"2%"}}>
-                        If you haven't checked out our gallery yet, I don't know what you're waiting for... We have beautiful displays of past work; with just a few clicks,
+                        If you haven't checked out the <a href="/Gallery">C & C gallery</a> yet, I don't know what you're waiting for... We have beautiful displays of past work; with just a few clicks,
                         your property could be featured next!
                     </p>
                 </div>
                 <div>
                     <h2 style={{fontSize:"4rem", width:"70%",padding:"2%",textAlign:"center"}}>Excellent Team</h2>
                     <p style={{fontSize:"2rem", width:"70%",margin:"auto",padding:"2%"}}>
-                        A team that has been together for over a decade, with a magnitude arsenal of experience between them both, Cross & Carlile have proven time and time
+                        A team that has been together for over a decade, with a sizeable arsenal of experience between them both, Cross & Carlile have proven time and time
                         again that team work makes the dream work
                     </p>
                 </div>
