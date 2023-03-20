@@ -1,5 +1,5 @@
 .contact-container {
-    background-color: #f3a837;
+    background-color: rgb(4, 14, 27);
     color: #151415;
     padding-top: 10%;
     min-height: 51vh;
@@ -10,7 +10,9 @@
     width: 50%;
     margin: auto;
     text-align: center;
-    padding: 2%;
+    padding: 2% 0;
+    background-color: #f3a837;
+    border-radius: 5%;
 }
 .contact-container input {
     width: 25%;

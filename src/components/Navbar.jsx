@@ -9,11 +9,11 @@ export const Navbar = (props) => {
     return (
         <>
             <div className="nav-container">
-                <Link to="/" className="home-link"><img src={logo} alt="Cross & Carlile Logo"/></Link>
+                <Link to="/" className="home-link"><img src={logo} onClick={() => window.scrollTo(0,0)} alt="Cross & Carlile Logo"/></Link>
                 <ul>
                     <a href="/contact">Contact</a>
                     <a href="/Gallery">Gallery</a>
-                    <a href="/Gallery">About Us</a>
+                    <a href="/about">About Us</a>
                     <a href="/Gallery">Products & Warranties</a>
                     <a href="/Gallery">Reviews</a>
                     <a href="/Gallery" style={{fontSize:"3rem"}}>💡</a> 
