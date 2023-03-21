@@ -23,7 +23,7 @@ export const HeroSection = () => {
                         </div>
                         <img src={pic1} alt="Noah and Tyler installing light fixtures" style={{alignItems:"center",paddingTop:"2%"}}/>
                         <p>Cross & Carlile Lighting is born and bred in the 757 and we are proud to serve our neighborhoods with shining smiles.
-                        <br /><br /><a href="https://google.com" target="_blank" rel="noopener noreferrer">Contact Us</a>
+                        <br /><br /><a href="/about" target="_blank" rel="noopener noreferrer">Contact Us</a>
                         </p>
                     </div>
                </div>
@@ -46,7 +46,7 @@ export const HeroSection = () => {
                         <img src={pic3} alt="Noah and Tyler installing light fixtures" style={{alignItems:"center",paddingTop:"2%"}}/>
                         <p>Whether it be a lit up patio, porch, 
                             driveway, or even your favorite tree that was planted decades ago.. We have your back. We'll work with you to decide how we can make your home the brightest on the block!
-                            <br /><br /><a href="https://google.com" target="_blank" rel="noopener noreferrer">Check out our products</a>
+                            <br /><br /><a href="/products" target="_blank" rel="noopener noreferrer">Check out our products</a>
                         </p>
                     </div>
                </div>
