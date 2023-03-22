@@ -26,7 +26,6 @@
 }
 .profile-images {
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-start;
 }
 @media only screen and (max-width: 1500px) {

@@ -90,6 +90,11 @@ div.hamburger-react {
         text-align: center;
         text-decoration: underline;
         line-height: 3rem;
+        height: 100%;
+        width: 40%;
+    }
+    .nav-container ul a {
+        width: 100%;
     }
     .full-size {
         display: none;

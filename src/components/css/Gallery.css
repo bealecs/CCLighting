@@ -25,19 +25,44 @@
     .gallery-container {
         padding-top: 10%;
     }
+    .gallery-container img {
+        width: 20%;
+    }
+    .gallery-container img:hover {
+        width: 33%;
+    }
 }
 @media only screen and (max-width: 1000px) {
     .gallery-container {
         padding-top: 15%;
+    }
+    .gallery-container img {
+        width: 25%;
+    }
+    .gallery-container img:hover {
+        box-shadow: #FADF63 4px 4px 12px 4px;
+        width: 38%;
     }
 }
 @media only screen and (max-width: 750px) {
     .gallery-container {
         padding-top: 20%;
     }
+    .gallery-container img {
+        width: 30%;
+    }
+    .gallery-container img:hover {
+        width: 38%;
+    }
 }
 @media only screen and (max-width: 500px) {
     .gallery-container {
         padding-top: 25%;
+    }
+    .gallery-container img {
+        width: 60%;
+    }
+    .gallery-container img:hover {
+        width: 80%;
     }
 }

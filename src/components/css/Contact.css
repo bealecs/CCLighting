@@ -49,19 +49,54 @@
     .contact-container {
         padding-top: 15%;
     }
+    .contact-container input {
+        width: 45%;
+    }
+    .contact-container textarea {
+        width: 50%;
+    }
 }
 @media only screen and (max-width: 1000px) {
     .contact-container {
         padding-top: 20%;
+    }
+    .contact-container input {
+        width: 65%;
+    }
+    .contact-container textarea {
+        width: 70%;
     }
 }
 @media only screen and (max-width: 750px) {
     .contact-container {
         padding-top: 25%;
     }
+    .contact-container input {
+        width: 80%;
+    }
+    .contact-container textarea {
+        width: 85%;
+    }
 }
 @media only screen and (max-width: 500px) {
     .contact-container {
         padding-top: 30%;
+    }
+    .contact-container input {
+        width: 100%;
+    }
+    .contact-container textarea {
+        width: 100%;
+    }
+    .contact-container form {
+        padding: 5%;
+    }
+    .contact-container input {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .contact-container textarea {
+        margin-top: 15%;
+        padding: 5%;
     }
 }

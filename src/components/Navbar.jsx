@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './css/Navbar.css';
 import { Link } from 'react-router-dom';
-import { Squash as Hamburger } from 'hamburger-react';
+import { Cross as Hamburger } from 'hamburger-react';
 
 export const Navbar = (props) => {
 
@@ -31,9 +31,9 @@ export const Navbar = (props) => {
                             setOpen(false);
                         }
                     }}
-                    size={40} distance="lg" label="Show menu" duration={0.5} />
+                    size={40} distance="lg" label="Show menu" duration={0.4} />
                 {isOpen && 
-                <ul>
+                <ul className="isopen">
                     <a href="/">Home</a>
                     <a href="/contact">Contact</a>
                     <a href="/Gallery">Gallery</a>
