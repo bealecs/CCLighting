@@ -14,7 +14,7 @@ export const Footer = () => {
             <SocialIcon className="social-icon" bgColor="#FADF63" target="_blank" rel="noopener noreferrer" url="https://www.instagram.com/crossandcarlilelighting/?igshid=YjNmNGQ3MDY%3D" />
             <SocialIcon className="social-icon" bgColor="#FADF63" target="_blank" rel="noopener noreferrer" url="https://www.yelp.com/biz/cross-and-carlile-lighting-chesapeake" />
         </div>
-        <p> © Website created by <Link target="_blank" rel="noopener noreferrer" to="https://clifcodes.netlify.app">Clif Codes 2023</Link></p>
+        <p> © Website created by <Link target="_blank" className="hyperlink" rel="noopener noreferrer" to="https://clifcodes.netlify.app">Clif Codes 2023</Link></p>
         </div>
         </>
     )

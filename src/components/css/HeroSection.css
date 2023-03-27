@@ -16,8 +16,8 @@ h2 {
     margin: auto;
     width: fit-content;
 }
-video {
-    width: 60%;
+iframe {
+    width: 100%;
     display: block;
     margin: auto;
     padding-bottom: 1%;
@@ -62,9 +62,8 @@ video {
     color: white;
     padding: 1%;
 }
-
 @media only screen and (max-width: 1500px) {
-    video {
+    iframe {
         padding-top: 15%;
     }
 }
@@ -76,7 +75,7 @@ video {
     .landing-cards {
         width: 100%;
     }
-    video {
+    iframe {
         padding-top: 30%;
     }
 }

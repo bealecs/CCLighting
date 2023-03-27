@@ -1,5 +1,6 @@
 import React from "react";
 import './css/HeroSection.css';
+import ReactPlayer from "react-player";
 
 export const HeroSection = () => {
 
@@ -12,8 +13,11 @@ export const HeroSection = () => {
         <>
             <div className="container">
                 <div>
-                    <video src={video} autoPlay loop muted></video>
-                    <h2 style={{color:"#f3a738"}}> I would like to replace the above video with the drone footage on your FB <br /> </h2>
+                    <ReactPlayer
+                        url="https://fb.watch/jslFJ5PdK3/"
+                        autoPlay
+                    />
+                    <h2 style={{color:"#f3a738"}}> Company Slogan or something similar here <br /> </h2>
                 </div>
                 <div className="Card-Holder">
                <div className="landing-cards">

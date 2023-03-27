@@ -13,4 +13,12 @@
 }
 .social-icon {
     margin: 0 2% 0 2%;
+    border-radius: 50%;
+}
+.social-icon:hover {
+    box-shadow: #FADF63 0px 0px 22px 0px;
+}
+.hyperlink {
+    padding: 0;
+    padding-bottom: 1%;
 }
