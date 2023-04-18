@@ -1,3 +1,5 @@
+# Cross & Carlile Lighting
+<br />
 My older brother (Tyler) and good friend (Noah) run an exterior lighting business located in south-eastern Virginia. As business has started picking up for them, I thought that I would make them a landing page to showcase some of their work in a professional light. This page includes a navbar with links to a gallery of their showcased work, product page to be transparent with customers about products and warranties that they utilize, about page, customer testimonials page, and of course a hero section. Finally, you can even send their business email a personalized message to get in contact with the company. 
 
 
