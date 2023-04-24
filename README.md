@@ -6,11 +6,11 @@
 
 #### This project was created using NPM Create React App. This project is a fairly simple one, with no user authentication or API calls. With this project, I more so wanted to focus on my UI/UX design and making the website look nice.
 
-# Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
