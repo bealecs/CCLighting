@@ -1,10 +1,8 @@
 import React from "react";
 import './css/HeroSection.css';
-import ReactPlayer from "react-player";
 
 export const HeroSection = () => {
 
-    const video = require("../videos/stockHero.mp4");
     const pic1 = require("../images/ccpic1.webp");
     const pic2 = require("../images/ccpic2.webp");
     const pic3 = require("../images/ccpics.webp");
