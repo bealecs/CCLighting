@@ -12,13 +12,7 @@ export const HeroSection = () => {
     return(
         <>
             <div className="container">
-                <div>
-                    <ReactPlayer
-                        url="https://fb.watch/jslFJ5PdK3/"
-                        autoPlay
-                    />
-                    <h2 style={{color:"#f3a738"}}> Company Slogan or something similar here <br /> </h2>
-                </div>
+                
                 <div className="Card-Holder">
                <div className="landing-cards">
                     <div className="cards1">
