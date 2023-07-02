@@ -6,6 +6,7 @@
     min-height: 100vh;
     height: fit-content;
     background-color: #040e1b;
+    padding-top: 5rem;
 }
 .landing-cards {
     padding-top: 7%;
@@ -27,18 +28,19 @@ iframe {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+
 }
 .cards1 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    height: 2rem;
 }
 .landing-cards {
-    width: 30%;
+    width: 30rem;
 }
 .cards1 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 100%;
     background-color: #F3A738;
 }
 .cards1 img {

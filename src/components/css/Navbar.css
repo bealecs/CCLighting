@@ -7,11 +7,12 @@
     top: 0;
     position: fixed;
     z-index: 1;
+    align-items: center;
 }
 .nav-container img {
-    width: 120px;
+    width: 100px;
     border-radius: 50%;
-    padding: 10%;
+    align-items: center;
     cursor: pointer;
 }
 .nav-container ul {
@@ -26,15 +27,12 @@
     list-style: none;
     transition: color ease-out 0.2s;
     cursor: pointer;
-    font-size: 2rem;
-    border-radius: 10%;
 }
 .full-size {
     text-decoration: none;
     list-style: none;
     transition: color ease-out 0.2s;
     cursor: pointer;
-    font-size: 2rem;
     border-radius: 10%;
     width: 100%;
     padding-top: 3%;
@@ -47,11 +45,12 @@ li:hover {
     color: #FADF63;
     text-decoration: none;
     padding: 1%;
-    font-size: 2rem;
+    font-size: 1.4rem;
+    transition: all ease 0.3s;
 }
 .nav-container a:hover {
-    color: #151415;
-    background-color: #FADF63;
+    color: orange;
+    text-decoration: underline;
     border-radius: 10%;
 }
 a.home-link:hover {
