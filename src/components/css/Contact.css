@@ -3,11 +3,12 @@
     color: #151415;
     padding-top: 10%;
     min-height: 51vh;
+    width: 50%;
+    margin: auto;
 }
 .contact-container form {
     display: flex;
     flex-direction: column;
-    width: 50%;
     margin: auto;
     text-align: center;
     padding: 2% 0;
@@ -15,8 +16,6 @@
     border-radius: 5%;
 }
 .contact-container input {
-    width: 25%;
-    margin: auto;
     margin-bottom: 2%;
     padding: 1%;
 }
@@ -26,16 +25,13 @@
     color: #FADF63;
 }
 .contact-container textarea {
-    width: 50%;
-    margin: auto;
+
     text-align: center;
     padding: 3%;
     margin-top: 2%;
 }
 .contact-container button {
     padding: 2%;
-    width: 25%;
-    margin: auto;
     margin-top: 5%;
     background-color: #f3a837;
     color: #151415;
@@ -45,58 +41,11 @@
     background-color: rgb(243, 168, 55, 0.8);
     color: #FADF63;
 }
-@media only screen and (max-width: 1500px) {
+
+@media only screen and (max-width:768px) {
     .contact-container {
-        padding-top: 15%;
-    }
-    .contact-container input {
-        width: 45%;
-    }
-    .contact-container textarea {
-        width: 50%;
-    }
-}
-@media only screen and (max-width: 1000px) {
-    .contact-container {
-        padding-top: 20%;
-    }
-    .contact-container input {
-        width: 65%;
-    }
-    .contact-container textarea {
-        width: 70%;
-    }
-}
-@media only screen and (max-width: 750px) {
-    .contact-container {
-        padding-top: 25%;
-    }
-    .contact-container input {
-        width: 80%;
-    }
-    .contact-container textarea {
-        width: 85%;
-    }
-}
-@media only screen and (max-width: 500px) {
-    .contact-container {
-        padding-top: 30%;
-    }
-    .contact-container input {
-        width: 100%;
-    }
-    .contact-container textarea {
-        width: 100%;
-    }
-    .contact-container form {
-        padding: 5%;
-    }
-    .contact-container input {
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    .contact-container textarea {
-        margin-top: 15%;
-        padding: 5%;
+        min-height: none;
+        margin-top: 10rem;
+        width: 90%;
     }
 }

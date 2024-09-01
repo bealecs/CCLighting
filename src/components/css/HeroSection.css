@@ -41,7 +41,7 @@ iframe {
     display: flex;
     flex-direction: column;
     margin: auto;
-    background-color: #F3A738;
+    background-color: #FADF63;
 }
 .cards1 img {
     display: block;
@@ -54,14 +54,14 @@ iframe {
     font-size: 1.5rem;
     color: rgb(4,14,27);
     line-height: 1.2;
-    background-color: #F3A738;
+    background-color: #FADF63;
     padding: 3%;
 }
 .cards1 a:hover {
     color: #151415;
 }
 .cards1 a {
-    color: white;
+    color: black;
     padding: 1%;
 }
 @media only screen and (max-width: 1500px) {
